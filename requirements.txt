@@ -1,5 +1,5 @@
-asgiref @ file:///home/conda/feedstock_root/build_artifacts/asgiref_1711268871457/work
-Django @ file:///home/conda/feedstock_root/build_artifacts/django_1715181266597/work
+asgiref==3.5.2
+Django==3.2.12
 django-cors-headers==4.3.1
 djangorestframework==3.15.1
 djangorestframework-simplejwt==5.3.1
@@ -9,7 +9,7 @@ packaging==24.0
 PyJWT==2.8.0
 pytz==2024.1
 PyYAML==6.0.1
-sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1715013953229/work
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1712329955671/work
+sqlparse==0.4.3
+typing_extensions==4.6.3
 uritemplate==4.1.1
 gunicorn==20.1.0
