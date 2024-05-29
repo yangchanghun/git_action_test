@@ -12,3 +12,4 @@ PyYAML==6.0.1
 sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1715013953229/work
 typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1712329955671/work
 uritemplate==4.1.1
+gunicorn==20.1.0
