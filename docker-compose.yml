@@ -1,0 +1,11 @@
+# docker-compose.yml
+version: '3'
+
+services:
+  web:
+    build: . #같은위치에있는 도커파일찾기
+    command: gunicorn myproject.wsgi:application --bind 0.0.0.0:8000
+    volumes: #현재 디렉토리
+      - .:/app
+    ports:
+      - "8000:8000"
