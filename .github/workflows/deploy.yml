@@ -21,7 +21,7 @@ jobs:
     - name: Sync and Deploy
       run: |
         ssh -o StrictHostKeyChecking=no ${{ secrets.USERNAME }}@${{ secrets.HOST }} "
-        cd /path/to/directory
+        cd /home/ubuntu/git_action_test
         git pull
         sudo docker-compose build
         sudo docker-compose down
